@@ -1,0 +1,133 @@
+body {
+  text-align: center;
+  margin: 0px;
+  background-color: rgba(13,14,18,255);
+}
+
+#drum-machine {
+  position: relative;
+  margin: auto;
+  margin-top: 100px;
+  width: 800px;
+  height: 600px;
+  background-color: #57565d;
+  border-radius: 10%;
+}
+
+#left-area,
+#right-area {
+  position: absolute;
+  width: 300px;
+  height: 200px;
+}
+
+#left-area {
+  left: 50px;
+  top: 50px;
+  margin-right: 50px;
+}
+
+#right-area {
+  left: 400px;
+  top: 50px;
+  margin-left: 50px;
+}
+
+#foot-area {
+  position: absolute;
+  width: 500px;
+  height: 300px;
+  top: 250px;
+  left: 125px;
+}
+
+.drum-pad {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  border-radius: 100%;
+}
+
+#crash-cym,
+#ride-cym {
+  top: -10px;
+  left: 100px;
+}
+
+#hi-hat-open,
+#hi-hat-closed,
+#snare-drum,
+#rack-tom-sm,
+#rack-tom-lg,
+#floor-tom {
+  top: 100px;
+}
+#snare-drum,
+#floor-tom {
+  right: -10px;
+}
+
+#hi-hat-closed,
+#rack-tom-lg {
+  left: 100px;
+}
+
+#hi-hat-open,
+#rack-tom-sm {
+  left: -10px;
+}
+
+#hi-hat-foot,
+#bass-drum {
+  position: absolute;
+}
+
+#hi-hat-foot {
+  left: 25px;
+  top: 10px;
+}
+#bass-drum {
+  bottom: 0px;
+  right: 125px;
+  width: 200px;
+  height: 200px;
+}
+
+#drum-name-box {
+    position: absolute;
+    right: 33px;
+    bottom: 100px;
+    background-color: #b4b2b6;
+    border: 3px solid #191919;
+    border-radius: 10px;
+    width: 200px;
+    height: 100px;
+    font-size: 1.2rem;
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+#snare-drum,
+#rack-tom-sm,
+#rack-tom-lg,
+#floor-tom,
+#bass-drum {
+  background-image: linear-gradient(#f4f9fa, #e3e4e8);
+  border: 3px solid #191919;
+}
+
+#ride-cym,
+#crash-cym,
+#hi-hat-open,
+#hi-hat-closed,
+#hi-hat-foot {
+  background-image: linear-gradient(#ceb35b, #e9ce68);
+  border: 3px solid #191919;
+}
+
+.pressed {
+    transform: scale(0.9);
+    opacity: 0.8;
+}

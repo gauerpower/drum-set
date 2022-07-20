@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Drum Set</title>
+  </head>
+
+  <body>
+    <div id="drum-machine">
+      <div id="left-area">
+        <button id="crash-cym" class="drum-pad w">w</button>
+        <button id="hi-hat-open" class="drum-pad a">a</button>
+        <button id="hi-hat-closed" class="drum-pad s">s</button>
+        <button id="snare-drum" class="drum-pad d">d</button>
+      </div>
+      <div id="right-area">
+        <button id="ride-cym" class="drum-pad i">i</button>
+        <button id="rack-tom-sm" class="drum-pad j">j</button>
+        <button id="rack-tom-lg" class="drum-pad k">k</button>
+        <button id="floor-tom" class="drum-pad l">l</button>
+      </div>
+      <div id="foot-area">
+        <button id="hi-hat-foot" class="drum-pad x">x</button>
+        <button id="bass-drum" class="drum-pad spacebar">spacebar</button>
+      </div>
+      <div id="drum-name-box">
+          <p id="display">Click a drum or press a key to start</p>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="index.js" type="text/javascript"></script>
+  </body>
+</html>
